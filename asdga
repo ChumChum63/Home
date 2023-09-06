@@ -1,0 +1,7 @@
+echo "# Home" >> README.md
+git init
+git add README.md
+git commit -m "первая фиксация"
+git branch -M main
+git remote добавить источник https://github.com/ChumChum63/Home.git
+git push -u origin главная
